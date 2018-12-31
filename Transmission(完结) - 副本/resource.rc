@@ -1,0 +1,194 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_MAIN DIALOG DISCARDABLE  0, 0, 460, 220
+STYLE DS_MODALFRAME | DS_CENTER | WS_MINIMIZEBOX | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Transmission"
+MENU IDR_MENU1
+FONT 10, "System"
+BEGIN
+    CONTROL         "Tab1",IDC_TAB1,"SysTabControl32",0x0,7,7,446,206
+END
+
+IDD_DIALOG1 DIALOG DISCARDABLE  0, 0, 465, 229
+STYLE WS_CHILD
+FONT 10, "System"
+BEGIN
+    DEFPUSHBUTTON   "连接",IDC_BTN1,290,47,50,14
+    PUSHBUTTON      "断开",IDC_BUTTON2,385,47,50,14
+    PUSHBUTTON      "发送",IDC_BUTTON1,49,167,45,13
+    EDITTEXT        IDC_EDIT1,13,27,143,63,ES_MULTILINE | ES_READONLY | 
+                    WS_VSCROLL
+    EDITTEXT        IDC_EDIT2,13,99,143,62,ES_MULTILINE | WS_VSCROLL
+    EDITTEXT        IDC_EDIT3,315,25,74,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT4,403,25,32,13,ES_AUTOHSCROLL
+    LTEXT           ":",IDC_STATIC,394,28,8,10
+    LTEXT           "目的ip与端口:",IDC_STATIC,261,29,49,12
+    PUSHBUTTON      "选择文件",IDC_BUTTON3,177,146,58,13
+    EDITTEXT        IDC_EDIT5,163,27,83,108,ES_MULTILINE | ES_READONLY | 
+                    WS_VSCROLL
+    PUSHBUTTON      "发送文件",IDC_BUTTON4,177,166,57,14
+    GROUPBOX        "主控",IDC_STATIC,253,7,188,177
+    GROUPBOX        "传输",IDC_STATIC,7,7,243,177
+    CONTROL         "Progress1",IDC_PROGRESS1,"msctls_progress32",PBS_SMOOTH | 
+                    WS_BORDER,324,169,110,10
+    LTEXT           "文件传输进度：",IDC_STATIC,266,168,56,9
+    PUSHBUTTON      "计算MD5",IDC_BUTTON5,263,140,50,13
+    EDITTEXT        IDC_EDIT6,325,137,110,21,ES_MULTILINE | ES_READONLY | 
+                    WS_VSCROLL
+END
+
+IDD_DIALOG2 DIALOG DISCARDABLE  0, 0, 463, 221
+STYLE WS_CHILD
+FONT 10, "System"
+BEGIN
+    DEFPUSHBUTTON   "开放",IDC_BTN2,380,52,50,14
+    PUSHBUTTON      "关闭",IDC_BUTTON1,379,27,50,14
+    PUSHBUTTON      "发送",IDC_BUTTON2,49,166,45,14
+    EDITTEXT        IDC_EDIT1,13,27,142,63,ES_MULTILINE | ES_READONLY | 
+                    WS_VSCROLL
+    EDITTEXT        IDC_EDIT2,13,99,142,60,ES_MULTILINE | WS_VSCROLL
+    EDITTEXT        IDC_EDIT3,292,27,73,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT4,293,53,46,14,ES_AUTOHSCROLL
+    LTEXT           "状态:",IDC_STATIC,270,31,22,11
+    LTEXT           "开放端口:",IDC_STATIC,254,55,37,11
+    EDITTEXT        IDC_EDIT5,162,27,82,109,ES_MULTILINE | ES_READONLY | 
+                    WS_VSCROLL
+    PUSHBUTTON      "选择文件",IDC_BUTTON3,175,144,57,14
+    PUSHBUTTON      "发送文件",IDC_BUTTON4,175,165,57,15
+    GROUPBOX        "主控",IDC_STATIC,249,7,191,178
+    GROUPBOX        "传输",IDC_STATIC,7,7,240,178
+    CONTROL         "Progress1",IDC_PROGRESS1,"msctls_progress32",PBS_SMOOTH | 
+                    WS_BORDER,322,169,110,10
+    LTEXT           "文件传输进度：",IDC_STATIC,266,168,56,9
+    PUSHBUTTON      "计算MD5",IDC_BUTTON5,261,134,53,13
+    EDITTEXT        IDC_EDIT6,322,131,109,22,ES_MULTILINE | ES_READONLY | 
+                    WS_VSCROLL
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_MAIN, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 453
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 213
+    END
+
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 458
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 222
+    END
+
+    IDD_DIALOG2, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 456
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 214
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON1               ICON    DISCARDABLE     "icon1.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU1 MENU DISCARDABLE 
+BEGIN
+    POPUP "菜单"
+    BEGIN
+        MENUITEM "消息",                        MID_XIAOXI
+    END
+    MENUITEM "介绍",                        MID_JIESHAO
+END
+
+#endif    // Chinese (中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

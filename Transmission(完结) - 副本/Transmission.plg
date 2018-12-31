@@ -1,0 +1,38 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Transmission - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\92978\AppData\Local\Temp\RSP7F33.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/Transmission.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\Program Files (x86)\Microsoft Visual Studio\MyProjects\sdqwe\MainDlg.cpp"
+]
+Creating command line "cl.exe @C:\Users\92978\AppData\Local\Temp\RSP7F33.tmp" 
+Creating temporary file "C:\Users\92978\AppData\Local\Temp\RSP7F34.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib comctl32.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/Transmission.pdb" /machine:I386 /out:"Release/Transmission.exe" 
+".\Release\Main.obj"
+".\Release\MainDlg.obj"
+".\Release\MD5.obj"
+".\Release\StdAfx.obj"
+".\Release\resource.res"
+]
+Creating command line "link.exe @C:\Users\92978\AppData\Local\Temp\RSP7F34.tmp"
+<h3>Output Window</h3>
+Compiling...
+MainDlg.cpp
+D:\Program Files (x86)\Microsoft Visual Studio\MyProjects\sdqwe\MainDlg.cpp(84) : warning C4018: '<' : signed/unsigned mismatch
+D:\Program Files (x86)\Microsoft Visual Studio\MyProjects\sdqwe\MainDlg.cpp(192) : warning C4018: '<' : signed/unsigned mismatch
+Linking...
+
+
+
+<h3>Results</h3>
+Transmission.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
